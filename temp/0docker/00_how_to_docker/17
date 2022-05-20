@@ -1,0 +1,12 @@
+# https://docs.docker.com/engine/swarm/swarm-tutorial/
+
+# docker swarm init --advertise-addr <Manager-IP>
+
+# first of all , get the ip address of your school iMac
+
+docker swarm init --advertise-addr 10.13.2.4
+
+docker swarm init --advertise-addr 192.168.56.1
+
+
+

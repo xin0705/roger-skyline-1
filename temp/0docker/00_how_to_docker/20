@@ -1,0 +1,5 @@
+docker network create -d overlay overmind
+
+# https://docs.docker.com/network/overlay/
+
+# -d, --driver string        Driver to manage the Network (default "bridge")

@@ -1,0 +1,6 @@
+docker service create --name engineering-bay --network overmind --replicas 2 -e OC_USERNAME=test -e OC_PASSWD=1234 42school/engineering-bay
+
+
+# https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/
+# https://docs.docker.com/engine/reference/commandline/service_create/
+# https://hub.docker.com/r/42school/engineering-bay

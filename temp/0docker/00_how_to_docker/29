@@ -1,0 +1,5 @@
+docker rm -f `echo $(sudo docker ps -a -q)`
+
+
+# --all , -a	Show all containers (default shows just running)
+# -q is a option is used to provide to return the unique IDs,$() returns the results of container IDs

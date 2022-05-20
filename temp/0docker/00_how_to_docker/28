@@ -1,0 +1,4 @@
+docker service rm `echo $(sudo docker service ls -q)`
+
+
+# -q- is a option is used to provide to return the unique IDs,$() returns the results of service IDs
